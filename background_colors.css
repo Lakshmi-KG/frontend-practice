@@ -1,0 +1,17 @@
+/* name based color style*/
+body{
+background-color:lightyellow;
+}
+/*Hex values */
+p{
+    color:#0000ff;
+    
+}
+h1,h2,h3{
+    color:#ff0000;
+}
+
+/* HSL values*/
+i{
+    color:hsl(120, 60%, 70%);
+}
