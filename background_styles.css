@@ -1,0 +1,21 @@
+/*Background-Attachment Property*/
+body {
+  background-image: url("images/logo image.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  
+  
+}
+
+h1,h2{ 
+    color:darkgreen;
+
+}
+p{
+    color:blue;
+}
+em,strong{
+ 
+    color: red;
+}
