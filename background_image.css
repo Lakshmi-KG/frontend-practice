@@ -1,0 +1,17 @@
+/*Background-image Property */
+body {
+  
+  background-image: url('images/codeimage.png');
+  background-repeat:no-repeat;
+}
+
+h1,h2{
+    color:darkviolet;
+}
+p{
+    color:darkturquoise;
+}
+
+b{
+    color:darkorange;
+}
