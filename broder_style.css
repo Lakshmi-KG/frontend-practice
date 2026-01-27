@@ -1,0 +1,56 @@
+/* >Border Styles in CSS*/
+body {
+  background-color: lightgreen;
+}
+h1 {
+  color: darkorange;
+  background-color: yellow;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #00aaff;
+}
+
+h2 {
+  color: #ffff00;
+  background-color: blue;
+  border: 5px dotted darkred; /* shot hand property */
+}
+
+h3 {
+  color: darkmagenta;
+  background-color: #ff00ff;
+  border: 1px dashed brown;
+}
+
+h4 {
+  color: crimson;
+  background-color: #ffff00;
+  border: 3px groove darkslateblue;
+}
+
+p {
+  color: blue;
+}
+b {
+  color: orange;
+  background-color: #ffff00;
+  border-top: double 3px red;
+}
+i {
+  color: blue;
+}
+
+em {
+  background-color: red;
+  border-bottom: 5px dashed #00ffff;
+}
+big{
+    color:aqua;
+    background-color: burlywood;
+    border-right: dotted 4px orange;
+}
+small{
+    color:black;
+    background-color: #ff00ff;
+    border-left: solid 6px darkslategrey;
+}
