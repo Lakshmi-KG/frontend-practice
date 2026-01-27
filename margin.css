@@ -1,0 +1,30 @@
+body {
+  background-color: aquamarine;
+}
+h1 {
+  color: blue;
+  background-color: orange;
+  border: 1px yellow solid;
+  border-top: dotted;
+  border-left: dashed;
+  border-right: groove;
+  border-radius: 85px;
+  margin-top: 2%;
+  margin-right:3%;
+  margin-left:4%;
+  margin-bottom:10%;
+
+}
+p {
+  color: blueviolet;
+  background-color: antiquewhite;
+  border: 1px darkgreen solid;
+  border-radius:40px;
+  margin: 10px 5px 15px 4px;
+}
+.c1{
+    color:orange;
+    background-color: brown;
+    border: 1px darkgreen solid;
+    margin:10px 15px;
+}
