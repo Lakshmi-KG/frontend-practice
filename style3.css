@@ -1,0 +1,30 @@
+/* pseudo-class selectors */
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: yellow;
+}
+
+div:hover{
+    color:darkviolet;
+    background-color:lightpink;
+}
+
+input:focus{
+    
+    background-color:orange;
+}
+
+p:first-child{
+    color:purple;
+}
