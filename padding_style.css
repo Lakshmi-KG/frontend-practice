@@ -1,0 +1,16 @@
+/* padding */
+h1 {
+  color: blue;
+  background-color: yellow;
+  border: 2px solid green;
+  border-radius: 30px;
+  margin:12px;
+  padding: 5px 10px 8px 25px;
+  width: 400px; /* element content width only*/
+  height:70px;
+  box-sizing: border-box;
+}
+
+p {
+  color: green;
+}

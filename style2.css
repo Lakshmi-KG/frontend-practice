@@ -1,0 +1,26 @@
+/* combinartor-selectors */
+
+/* Descendent (space) selector */
+div p {
+  color: red;
+}
+
+/* child(>) selector */
+div > p {
+  color: blue;
+}
+
+/* next sibling(+) selector */
+div + p {
+  color: brown;
+}
+
+section + p {
+  color: orange;
+}
+
+/* subsequent-sbiling(~) selector */
+div ~ p {
+    color:darkmagenta;
+}
+
