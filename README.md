@@ -1,2 +1,2 @@
 # frontend-practice
-Frontend project for learning and practice
+Frontend learning and practice
