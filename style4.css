@@ -1,0 +1,38 @@
+/* pseudo-element selectors */
+
+/* only for paragraph first line */
+h1::first-line{
+  color:blue;
+}
+
+/* only for paragraph first letter */
+p::first-letter {
+  color: red;
+  font-size: 40px;
+}
+
+
+/* only for firs letter of h1 */
+h1:first-child::first-letter{
+  color:darkblue;
+  font-size: 50px;
+}
+
+h2::before{
+  content:"👉";
+  color:blue;
+}
+
+h3::after {
+  content: " 🎓";
+}
+
+li::marker{
+  color:red;
+
+}
+
+body::selection{
+  background-color:yellow;
+  color:brown;
+}
