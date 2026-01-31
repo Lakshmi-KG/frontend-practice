@@ -1,0 +1,54 @@
+h1 {
+  color: black;
+  background-color: lightslategrey;
+  text-align: center; /* center/right/left(by default)/justify */
+}
+
+p {
+  color: blue;
+  background-color: lightseagreen;
+  text-align: justify;
+  text-align-last: center; /* apply only for last line in p*/
+  line-height: 20px;
+  text-indent: 10px;
+  white-space: normal;
+}
+
+img {
+  width: 50px;
+  height: 40px;
+  vertical-align: base-line; /* sup/sub/middle/base-line*/
+}
+span {
+  color: black;
+  font-size: 60px;
+}
+
+b {
+  font-size: 40px;
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+h3 {
+  color: black;
+  font-size: 30px;
+  text-decoration-line: underline; /*underline/over-line/line-through/unset*/
+  text-decoration-color: blue;
+  text-decoration-style: wavy;
+  text-decoration-thickness: 3px;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+#s{
+    color: blueviolet;
+    font-size: 30px;
+    text-align: left;
+    text-indent: 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 20px;
+    text-shadow: 2px 3px 5px red;
+}
