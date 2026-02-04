@@ -1,0 +1,13 @@
+ol {
+  list-style-type: upper-alpha;
+}
+ul {
+  list-style-image: url("images/emoji1.png");
+  list-style-position: outside;
+  background-color: orange;
+}
+ul li {
+  color: blue;
+  background-color: lightgreen;
+  padding: 4px;
+}

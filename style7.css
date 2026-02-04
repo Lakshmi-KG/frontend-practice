@@ -1,0 +1,19 @@
+/* links-styles */
+a:link {
+  color: blue;
+  text-decoration: none;
+  background-color: yellow;
+  padding: 10px 15px;
+  border: 1px solid black;
+}
+a:hover {
+  color: chocolate;
+  background-color: cyan;
+}
+a:active {
+  color:green;
+}
+
+a:visited {
+  color:red;
+}
