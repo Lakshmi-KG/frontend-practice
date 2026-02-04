@@ -1,0 +1,21 @@
+/* font-styles in css */
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 15px;
+}
+div {
+  font-size: 10px;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  font-size: 2vw;
+}
+#p1 {
+  font-size: 2rem;
+}
