@@ -1,0 +1,14 @@
+/* creating navigation bar using lists */
+ul.menu li {
+  color: blue;
+  list-style: none;
+  display: inline;
+  padding-right: 55px;
+}
+ul.menu li a {
+  text-decoration: none;
+}
+ul.menu li a:hover {
+  background-color: cyan;
+  color: black;
+}
