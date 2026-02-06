@@ -1,0 +1,24 @@
+/*  z-index property program */
+.img1 {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  z-index: -1;
+  border: 2px solid black;
+}
+.img2 {
+  position: relative;
+  left: 8px;
+  right: 8px;
+  z-index: 5;
+  border: 1px solid red;
+}
+span {
+  position: absolute;
+  left: 50px;
+  right: 50px;
+  z-index: 50;
+  padding: 20px;
+  font-weight: bold;
+  font-size: xx-large;
+}
