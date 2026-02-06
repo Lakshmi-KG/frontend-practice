@@ -1,0 +1,46 @@
+/* form property */
+h2 {
+  text-align: center;
+}
+form {
+  background-color: whitesmoke;
+  width: 400px;
+  margin: 0 auto auto;
+  padding: 10px;
+  border: 1px solid silver;
+}
+
+label {
+  display: block;
+  padding-bottom: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+input[type="reset"],
+input[type="submit"] {
+  width: 80px;
+  height: 40px;
+  margin: 20px;
+}
+input[type="reset"]:hover {
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+}
+input[type="submit"]:hover {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+}
+
+input[type="text"]:focus {
+  background-color: sandybrown;
+}
+input[type="password"]:focus {
+  background-color: sandybrown;
+}
