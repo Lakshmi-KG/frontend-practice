@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My First form</title>
+  </head>
+  <body>
+    <h1>Python Regtration form</h1>
+    <form action="getdata.py" method="post">
+      <label for="un"> Username :</label><sup>*</sup>
+      <input id="un" name="unmae" type="text" required autofocus /><br /><br />
+
+      <label for="fn">Fullname:</label>
+      <input type="text" id="fn" name="fullname" /><br /><br />
+      <label for="pwd">Password :</label><sup>*</sup>
+      <input type="password" id="pwd" name="password" required readonly value="lakshmi@123"/><br /><br />
+      <label for="em">Email Id :</label><sup>*</sup>
+      <input type="email" id="em" name="email" required /><br /><br />
+      <label for="mb">Mobile:</label>
+      <input
+        type="tel"
+        id="mb"
+        name="mobile"
+        placeholder="+91-9390658571"
+      /><br /><br />
+      <fieldset>
+        <legend>DOB</legend>
+        <label for="bod">Date of Brith:</label>
+        <input
+          type="date"
+          id="bod"
+          name="date of brith"
+          min="2000-01-01"
+          max="2010-12-31"
+        />
+        <br /><br />
+        <label for="tb">Time of Brith</label>
+        <input type="time" id="tb" name="Time of Brith" />
+      </fieldset>
+      <br />
+
+      <label for="p">Profile URL:</label>
+      <input type="url" id="p" name="profile" /><br /><br/>
+
+      <label for="cv">CV/Resume:</label>
+      <input type="file" id="cv " name="cv"/><br/>
+
+      Gender :
+      <input type="radio" id="m" name="gender" />
+      <label for="m">Male</label>
+      <input type="radio" id="f" name="gender" />
+      <label for="f">Female</label><br />
+      Languages Known :
+
+      <input type="checkbox" id="T" name="Tel" />
+      <label for="T">Telugu</label>
+      <input type="checkbox" id="E" name="Eng" />
+      <label for="E">English</label>
+      <input type="checkbox" id="H" name="Hin" />
+      <label for="H">Hindi</label><br />
+
+      <label for="clr">Favroiate color:</label>
+      <input type="color" id="clr" name="color" /><br /><br />
+      <label for="quantity">How many Languages Known:<label>
+      <input type="number" id="quantity" name="quantity" min="0" max="8"/><br/><br/>
+
+      <label for="b">Ho any products required:</label>
+      <input type="range" id="b" name="bat"/><br/><br/>
+
+      <label for="cntry">Select your country:</label>
+      <select id="cntry" name="country">
+        <option>IN</option>
+         <option>US</option>
+         <option>UK</option>
+      </select><br/><br/>
+
+      <label for="add">Address:</label>
+      <textarea rows="5" cols="30">
+        
+      </textarea><br/><br/>
+
+      <label for="favpen" >Your favorite color pen:</label>
+      <input list="fav" id="favpen" name="favclrpen"/>
+      <datalist id="fav">
+        <option>Red</option>
+        <option>Blue</option>
+        <option>Black</option>
+      </datalist><br/>
+
+      <input type="Reset" />
+
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>
