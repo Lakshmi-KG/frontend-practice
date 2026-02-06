@@ -1,0 +1,29 @@
+/* float property program*/
+
+img {
+  width: 300px;
+  height: 250px;
+}
+div.main {
+  width: 100%;
+  background-color: none;
+ 
+  height: 300px;
+}
+div.sub1 {
+  width: 50%;
+  height: 300px;
+  float: left;
+  text-align: justify;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+div.sub2 {
+  width: 45%;
+  height: 300px;
+  float: left;
+  text-align: center;
+  padding: 10px;
+  opacity: 0.9;
+}
