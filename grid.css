@@ -1,0 +1,120 @@
+/* styles for grid program */
+body {
+  background-color: rgb(217, 225, 228);
+  margin: 10px;
+}
+div.container {
+  display: grid;
+  grid-template-areas:
+    " myheader nav re login"
+    "s1 s1 s2 s2"
+    "footer  footer footer footer";
+  width: 100vw;
+  height: 100vh;
+}
+img {
+  border: 2px solid black;
+  width: 90px;
+  height: 60px;
+  border-radius: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+div.container div {
+  padding: 15px;
+}
+.header {
+  grid-area: myheader;
+}
+
+.nav {
+  grid-area: nav;
+  padding: 60px;
+}
+.nav ul li {
+  list-style-type: none;
+  display: inline;
+  padding-right: 69px;
+  font-size: 25px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav ul li a:hover {
+  background-color: orangered;
+  color: blue;
+  border: 2px solid blue;
+  border-radius: 15px;
+  font-weight: 300;
+}
+div.register {
+  grid-area: re;
+  padding: 20px;
+  border: 2px sloid orange;
+}
+div.Login {
+  grid-area: login;
+}
+div.s1 {
+  grid-area: s1;
+  font-style: normal;
+  text-align: justify;
+  font-size: 25px;
+  display: flex;
+}
+
+div.s2 {
+  grid-area: s2;
+  font-style: normal;
+  text-align: justify;
+  font-size: 25px;
+}
+
+.footer {
+  display: flex;
+  grid-column: 1;
+  justify-content: center;
+  align-items: center;
+  grid-area: footer;
+  font-size: 30px;
+  text-align: center;
+  height: 100px;
+  border: 2px solid gray;
+  background-color: rgb(2, 3, 24);
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+button {
+  width: 90px;
+  height: 45px;
+  margin: 45px;
+  background-color: rgba(5, 95, 24, 0.669);
+  color: white;
+  border: 3px solid green;
+  border-radius: 8px;
+}
+button.b1 {
+  background-color: #ce7b1d;
+  color: white;
+  border: 2px solid orange;
+  border-radius: 8px;
+}
+button.b1:hover {
+  background-color: blue;
+  color: white;
+}
+button:hover {
+  background-color: blue;
+  color: white;
+}
+h4 {
+  font-size: 25px;
+  display: inline;
+  text-align: center;
+}
