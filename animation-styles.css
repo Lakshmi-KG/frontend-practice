@@ -1,0 +1,55 @@
+body {
+  background-color: lightblue;
+}
+div {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  color: black;
+  padding: 10px;
+  animation-name: myanimation;
+  animation-duration: 10s;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+@keyframes myanimation {
+  0% {
+    background-color: red;
+    color: black;
+    left: 0px;
+    top: 0px;
+  }
+  15% {
+    background-color: green;
+    color: white;
+    left: 100px;
+    top: 100px;
+  }
+  25% {
+    background-color: blue;
+    color: white;
+    left: 300px;
+    top: 300px;
+  }
+    50% {
+    background-color: rgb(223, 27, 161);
+    color: white;
+    left: 500px;
+    top: 500px;
+  }
+     75% {
+    background-color: rgb(56, 147, 203);
+    color: white;
+    left: 700px;
+    top: 700px;
+  }
+     100% {
+    background-color: rgb(245, 99, 9);
+    color: white;
+    left: 800px;
+    top: 800px;
+  }
+
+
+}
