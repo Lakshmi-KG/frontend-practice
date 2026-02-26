@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Javascript Output Example</title>
+    <meta name="viewport" content="width=device-width,intial-scale=1.0" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="mystyles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script>
+      // innerHTML Output in JS
+      function finnerHTML() {
+        document.getElementById("spl").innerHTML =
+          "Hello....Welcome to our javascript...once Reference  This <a href='https://teluguwebguru.in'>Website</a> ";
+      }
+
+      // innerText Output in JS
+      function finnerText() {
+        document.getElementById("spl").innerText =
+          "Hello....Welcome to our javascript...once Reference  This <a href='https://teluguwebguru.in'>Website</a>  ";
+      }
+      // document.write Output in JS
+      function fdocumentwrite() {
+        document.write("Hello<br/>");
+        document.write("How are you");
+      }
+      // window.alert Output in JS
+      function fwindowalert() {
+        window.alert("Hello welcome  to javascript");
+      }
+
+      // console.log Output in JS
+      function fconsolelog() {
+        console.log("Hello learners");
+      }
+    </script>
+  </head>
+  <body>
+    innerHTML Output in JS:
+    <button onclick="finnerHTML()">Click here</button><br /><br /><br />
+
+    innerText Output in JS:
+    <button onclick="finnerText()">Click me</button>
+    <h1 id="spl" name="splname"></h1>
+    <br /><br />
+    document.write Output in JS:
+    <button onclick="fdocumentwrite()">click here</button>
+    <br /><br /><br />
+    document.alert Output in JS:
+    <button onclick="fwindowalert()">window alert</button>
+    <br /><br /><br />
+    document.alert Output in JS:
+    <button onclick="fconsolelog()">console log</button>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
