@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Assignment Operators Example in Javascript</title>
+    <meta name="viewport" content="width=device-width,intial-scale=1.0" />
+    <meta charset="utf-8" />
+
+    <script src="myjsfile.js"></script>
+    <script>
+      function fassgn() {
+        let a = 50;
+        a += 10;
+        window.alert(a);
+      }
+      function fassgnadd() {
+        let x = parseInt(document.getElementById("value1").value);
+        x += parseInt(document.getElementById("value2").value);
+
+        document.getElementById("res").value = "assgn add result : " + x;
+      }
+
+      function fassgnsub() {
+        let x = parseInt(document.getElementById("value1").value);
+        x -= parseInt(document.getElementById("value2").value);
+
+        document.getElementById("res").value = "assgn sub result : " + x;
+      }
+
+      function fassgnmul() {
+        let x = parseInt(document.getElementById("value1").value);
+        x *= parseInt(document.getElementById("value2").value);
+
+        document.getElementById("res").value = "assgn mul result : " + x;
+      }
+
+      function fassgndiv() {
+        let x = parseInt(document.getElementById("value1").value);
+        x /= parseInt(document.getElementById("value2").value);
+
+        document.getElementById("res").value = "assgn div result : " + x;
+      }
+      function fassgnmodul() {
+        let x = parseInt(document.getElementById("value1").value);
+        x %= parseInt(document.getElementById("value2").value);
+
+        document.getElementById("res").value = "assgn moduls result : " + x;
+      }
+      function fassgnexp() {
+        let x = parseInt(document.getElementById("value1").value);
+        x **= parseInt(document.getElementById("value2").value);
+
+        document.getElementById("res").value = "assgn exp result : " + x;
+      }
+
+      function fassgncolon() {
+        const course = {
+          name: " python full stack ",
+          duration: " 5 - 6 months ",
+        };
+        window.alert("course name :" + course.name);
+        window.alert("course duration : " + course.duration);
+      }
+    </script>
+  </head>
+  <body>
+    <h2>Assigned value:</h2>
+    <button onclick="fassgn()" type="button" value="calculate">=</button><br />
+    <h2>Arithmetic Operators:</h2>
+    vaule1: <input type="text" id="value1" name="value1" /><br /><br />
+    vaule2: <input type="text" id="value2" name="value2" /><br /><br />
+
+    <button onclick="fassgnadd()" type="button" value="calculate">+=</button>
+
+    <button onclick="fassgnsub()" type="button" value="calculate">-=</button>
+
+    <button onclick="fassgnmul()" type="button" value="calculate">x=</button>
+
+    <button onclick="fassgndiv()" type="button" value="calculate">
+      &divide;=
+    </button>
+
+    <button onclick="fassgnmodul()" type="button" value="calculate">%=</button>
+
+    <button onclick="fassgnexp()" type="button" value="calculate">**=</button>
+
+    <br /><br />
+    Result :
+    <input type="text" id="res" name="res" /><br /><br />
+    <h2>Assigned Colon:</h2>
+    <button onclick="fassgncolon()" type="button" value="calculate">:</button
+    ><br />
+  </body>
+</html>
