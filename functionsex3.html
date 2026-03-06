@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Functions Ex-3 in Js</title>
+    <meta name="viewport" content="width=device-width,intial-scale=1.0" />
+    <meta charset="utf-8" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h4 class="text-danger ms-4">Return and Default values in JS</h4>
+    <script>
+      // functions -> reuseable code blocks
+      // we can also setup default values to the parameters.
+      function addxy(a = 150, b = 250) {
+        let x = a;
+        let y = b;
+        let z = a + b;
+        return z; //  return value_exit from the function
+        console.log("after return statement "); // never executed
+      }
+
+      //reusing first time
+      let res = addxy(20, 40); // 20+40
+      console.log("Sum of 20,40 is : " + res);
+
+      let p = "TWG";
+      let c = "JavaScript";
+      console.log(`${p}  ${c} `);
+
+      let r = addxy(50, 50); //50+50
+      console.log(r);
+
+      //reusing second time
+      let res1 = addxy(80, 60); //80+60
+      console.log("Sum of 20,40 is : " + res1);
+      console.log("Learning Function Concepts in javascript");
+
+      // resusig third time
+      let v1 = 120;
+      let v2 = 50;
+      let res2 = addxy(v1, v2); //120+50
+      console.log(`Sum of ${v1},${v2} : ${res2}`);
+
+      // default values
+      let res3 = addxy();
+      console.log(`res3 result is : ${res3}`);
+
+      let res4 = addxy(500);
+      console.log("res4 result is : " + res4);
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
