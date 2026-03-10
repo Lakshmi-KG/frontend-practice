@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Registration form</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  </head>
+  <body>
+    <!--header section code-->
+    <header class="myheader">
+      <div class="eventdate">12-13 March 2026 | BENGALURU</div>
+      <!--logo image -->
+      <div class="hcontainer">
+        <div class="logoimg">
+          <img
+            src="https://www.aidevcon.in/wp-content/uploads/2024/12/logo-2.png"
+          />
+        </div>
+        <nav class="navmenu">
+          <ul>
+            <li class="items"><a href="#" class="active">HOME</a></li>
+            <li class="items"><a href="#">VISIT</a></li>
+            <li class="items"><a href="#">EXIBIT</a></li>
+            <li class="items"><a href="#">SPEAK</a></li>
+            <li class="items"><a href="#">INFO++</a></li>
+            <button class="register"><a href="#">Register</a></button>
+            <button class="login"><a href="#">Login</a></button>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--form code-->
+    <main class="register-main">
+      <form action="getdata.py" method="post" class="registerform">
+        <h1 class="rgtr-h1">REGISTER NOW</h1>
+        <div class="section1-row flexrow">
+          <div class="title">
+            <label for="title ">Title<sup>*</sup></label>
+            <select id="title" name="title" placeholder="Select" required>
+              <option value="option" style="width: 50px">Select</option>
+              <option>Mr</option>
+              <option>Ms</option>
+              <option>Mrs</option>
+              <option>Dr</option>
+            </select>
+          </div>
+          <div class="Firstname">
+            <label for="firstname">First Name<sup>*</sup></label>
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="Enter FirstName"
+              required
+            />
+          </div>
+          <div class="surname">
+            <label for="mname-sname"
+              >Middle &amp; Surname Name:<sup>*</sup></label
+            >
+            <input
+              type="text"
+              id="mname-sname"
+              name="firstname"
+              placeholder="Enter Surname"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="emailid">
+          <label for="email">Email:<sup>*</sup></label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter Email"
+            required
+          />
+        </div>
+        <div class="mobilenumber">
+          <label for="mbn">Mobile Number:<sup>*</sup></label>
+          <input
+            type="tel"
+            id="mbn"
+            name="mobilenumber"
+            placeholder="Give 10 digits number "
+          />
+        </div>
+        <!--radio buttons code start-->
+        <div class="student-details">
+          <label for="yes" class="main"> I am Student:<sup>*</sup> </label
+          ><br />
+          <input type="radio" id="yes" name="student" />
+          <label for="yes">yes</label><br />
+
+          <input type="radio" id="no" name="student" />
+          <label for="yes">no</label>
+        </div>
+        <!--radio buttons code end-->
+        <div class="education">
+          <label for="edu">Organisation/Institution:<sup>*</sup></label>
+          <input type="text" id="edu" name="Education" />
+        </div>
+        <div class="city">
+          <label for="city">City:<sup>*</sup></label>
+          <input type="text" id="city" name="city" />
+        </div>
+        <div class="state">
+          <label for="state">State:<sup>*</sup></label>
+          <input type="text" id="state" name="state" />
+        </div>
+        <div class="country">
+          <label for="Country">Country:<sup>*</sup></label>
+          <input type="text" id="Country" name="Country" />
+        </div>
+        <br />
+        <div class="checkbox">
+          <input type="checkbox" required />
+          <p class="p1">
+            I hereby confirm that I am 18 years or older, and I have provided
+            all correct and accurate info above. Plus, I have agreed to
+            <br />
+            receive marketing & promotional messages from the organiser &
+            sponsor(s) of this event,
+          </p>
+        </div>
+        <br />
+        <div class="rgstr-button">
+          <button type="submit" value="Register" class="rgstr-button">
+            <a href="login.html">Register For Free</a>
+          </button>
+        </div>
+        <br />
+        <div class="p1 p2">
+          <p>
+            If you are facing any challenges with registration, we are here to
+            help! Please reach out to us at info@aidevcon.in, and our team
+            <br />
+            will assist you as soon as possible.
+          </p>
+        </div>
+      </form>
+    </main>
+
+    <!--footer code-->
+    <footer class="footer flexcolumn">
+      <div class="footer-sec1 flexrow">
+        <div class="footer-section1-left">
+          <h3>ABOUT AI DEVCON</h3>
+          <span
+            >AI DEV CON is an attempt by the team at Open Source For You
+            magazine, in partnership with India’s AI community and industry, to
+            bring various<br />
+            stake-holders of AI eco-system under a single roof. The mission of
+            AI DEV CON is simple: to enable YOU to harnessing the power of AI,
+            and to<br />
+            enable some of YOU to develop the future of AI.</span
+          >
+        </div>
+        <div class="footer-section1-right">
+          <h3>Contact Us</h3>
+          info@aidevcon.in<br />
+          +91-98111 55335
+        </div>
+      </div>
+
+      <div class="footer-sec2 flexrow">
+        <div class="footer-section1-left">© all Copyrights reserved</div>
+        <span class="footer-section1-right">
+          Privacy Policy | About Us | Contact Us | Love Diversity| Subscription
+          &amp; Account Removal
+        </span>
+      </div>
+    </footer>
+  </body>
+</html>
