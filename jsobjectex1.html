@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>object Creation with Properties and Methods in Js</title>
+    <meta name="viewport" content="width=device-width,intial-scale=1.0" />
+    <meta charset="utf-8" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <h1 class="ms-4 mt-4">Student Details :</h1>
+    <div id="stud" class="ms-5"></div>
+
+    <script>
+      // objects in Js
+      // properties in object
+      const student = {
+        sname: "Lakshmi",
+        age: 21,
+        marks: 98,
+
+        // methods in object
+        read: function () {
+          let sname = "netra";
+          return `Student ${this.sname} is reading well`;
+          // this is keyworb in js
+          // this refers to current object
+        },
+      };
+      document.getElementById("stud").innerHTML =
+        `student name : ${student.sname}
+         <br/> student age : ${student.age}
+        <br/> student marks : ${student.marks} <br/> ${student.read()}`;
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
