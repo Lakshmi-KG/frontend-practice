@@ -29,6 +29,7 @@
 
       // creating date object with our custom date value
       const d2 = new Date("2026-03-10");
+      d2.setDate("15"); //mutable
       document.getElementById("d1").innerHTML += `<br/> <br/>d2  is : ${d2}`;
 
       const d3 = new Date("2025", "01", "10"); // month starts from 0
