@@ -1,0 +1,110 @@
+<!--This Program Demonstrates arrays example-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js Arrays Example Program</title>
+  </head>
+  <body>
+    <script>
+      // this is first way to create array
+      const snames = ["Lakshmi", "Aparna", "Varun"];
+      console.log(snames[0]);
+
+      // this is second way to create a array
+      const marks = new Array(40, 60, 80, 90, 95);
+      console.log(marks[4]);
+
+      //length property- to find length of an array
+      const courses = ["python", "java", "javascript"];
+      console.log(courses.toString());
+      console.log(courses.length);
+
+      // Array methods()
+
+      //toString()--array -->string
+      const ages = [10, 20, 30, 40];
+      console.log(ages.toString());
+      console.log("total length of a ages string is: " + ages.length);
+
+      // at()- returns the element at particular index in given array
+      console.log("ages at index 3 value is: " + ages.at(3));
+
+      // Join()- jion all elements in an array
+      const newcourses = courses.join("-");
+      console.log(newcourses);
+
+      // pop()- delete or remove the  element from given array
+      const newages = ages.pop();
+      console.log(ages.toString());
+      console.log("removed/deleted element in array is:  " + newages);
+
+      // push()- add new element at last poistion of the array
+      const student_things = ["book", "pen"];
+      console.log(student_things.push("pencil"));
+      console.log(student_things.toString());
+      console.log("this new thing/value: " + student_things.at(2));
+
+      console.log(ages.toString());
+      ages.push(35);
+      console.log(ages.toString());
+
+      //shift()- remove first element from the array and shifts all other elements to a lower index
+      console.log("Before shift index [0] is: " + ages[0]);
+      ages.shift();
+      console.log(ages.toString());
+      console.log("After shift index [0] is: " + ages[0]);
+
+      //unshift()- add new element at the begining
+      console.log("unshift list before unshift : " + marks.toString());
+      console.log("Before unshift index[0]: " + marks[0]);
+      marks.unshift(99);
+      console.log(marks.toString());
+      console.log("afeter unshift index[0]: " + marks[0]);
+
+      // updated()- existing element in an array
+      courses[2] = "CSS";
+      console.log(courses.toString());
+
+      //isArray()- to check whether a var is an array or not?
+      const tools = ["table", "bag", "pens"];
+      console.log(Array.isArray(tools));
+      let x = 50;
+      console.log(Array.isArray(x));
+
+      //delete()- to delete elements from an array
+      const digitalthings = ["phone", "laptop", "desktop", "tab"];
+      console.log("Befores delete index[3]: " + digitalthings);
+      console.log(digitalthings.toString());
+      delete digitalthings[3];
+      console.log("After delete index[3]: " + digitalthings);
+      console.log(digitalthings[3]);
+      digitalthings[3] = "computer";
+      console.log(digitalthings.toString());
+
+      // concat()- marging arrays
+      const name1 = ["varun"];
+      const name2 = ["Lakshmi", "aparna"];
+      const names = name1.concat(name2);
+      console.log(names.toString());
+
+      //copywithin() - it copies array elements to another position in the same array
+      const num = [1, 2, 3, 4, 5];
+      num.copyWithin(4, 2);
+      console.log(num.toString());
+
+      //flat()- to flatten the array
+      let s2 = [
+        [10, 20],
+        [30, 40],
+      ];
+      console.log(s2[1]);
+      const s4 = s2.flat();
+      console.log(s4.toString());
+      console.log(s4.at(2).toString());
+
+      //slice()-
+    </script>
+  </body>
+</html>
