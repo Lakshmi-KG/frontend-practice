@@ -103,8 +103,27 @@
       const s4 = s2.flat();
       console.log(s4.toString());
       console.log(s4.at(2).toString());
+      //splice()- we can add new item to an array
+      const courses1 = ["Go", "C", "C++", "Java"];
+      console.log("Before splice courses1: " + courses1.toString());
 
-      //slice()-
+      //remove 2 elements from Index1 and insert new elements
+      courses1.splice(1, 2, "python", "PERL");
+      console.log("After splice courses1  is :" + courses1.toString());
+
+      //toSpliced() -> it returns original array does not modify original  array
+      const student_names = ["arun", "tharun"];
+      console.log(
+        "Before tospliced student_names is: " + student_names.toString(),
+      );
+      const c1 = student_names.toSpliced(1, 0, "hari", "ramesh");
+      console.log("after tospliced c1 is: " + c1.toString());
+
+      //slice()-> slicing out/extracting part of array
+      const courses2 = ["spoken English", "Aptitude", "coding"];
+      const c2 = courses2.slice(1);
+      console.log("before slice courses2 is: " + courses2.toString());
+      console.log("after slice c2 is: " + c2.toString());
     </script>
   </body>
 </html>
