@@ -68,20 +68,12 @@ a.active {
 
 .section3 {
   background-color: hwb(0 87% 12%);
+  height: 100px;
 }
 
 section h1 {
   color: #ff8c08;
 }
-
-.sec3-subdiv1 {
-
-
-}
-
-
-
-
 
 .section4 {
   padding-top: 40px;
@@ -89,24 +81,17 @@ section h1 {
 .sec4-h1 {
   color: #ff8c08;
   font-size: 20px;
-  font-weight: bolder;
-  font-family: "Times New Roman", Times, serif;
 }
 .sec4text {
-  padding-top: 20px;
-  color: black;
-  font-size: 35px;
-  font-weight: 520;
+  font-size: 45px;
+  font-weight: 400;
 }
 /* serction -5 code*/
 
 .section5 {
-  margin-top: 70px;
-  width: 100%;
-  height: 450px;
   background-color: hwb(0 87% 12%);
 }
-.sec5-content {
+/*.sec5-content {
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: auto auto auto auto;
@@ -116,11 +101,8 @@ section h1 {
   text-align: center;
   gap: 20px;
   padding: 40px;
-}
-.sec5-h1 {
-  font-size: 4.4em;
-  font-weight: bold;
-}
+}*/
+
 /*
 .sec5-image {
   width: 250px;
@@ -129,42 +111,31 @@ section h1 {
 
 /* section-6 styles */
 .section6 {
-  padding-top: 40px;
-  margin-top: 40px;
-  width: 100%;
-  height: 500px;
   justify-content: center;
 }
 .sec-6head {
   font-weight: 600;
-  font-size: 4.5em;
 }
 .sec6-span1 {
-  padding: 10px;
-  display: block;
-  text-align: center;
-  justify-content: center;
   font-size: 2em;
   font-weight: 400;
 }
 .sec6-span2 {
-  display: block;
-  text-align: center;
-  justify-content: center;
   font-size: 2em;
   font-weight: lighter;
   opacity: 0.6;
-  padding-bottom: 60px;
 }
 .sec-6subdiv1 {
-  display: flex;
-  padding: 20px 50px;
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: 400;
 }
-.sec-6subdiv1 ol li {
-  padding: 18px;
+
+.firstdiv ol li {
+  font-size: 2em;
+  padding: 10px 0px;
+  margin: 0px 5px;
 }
+
 .sec-6subdiv2 {
   display: flex;
   padding: 20px 50px;
@@ -172,15 +143,11 @@ section h1 {
   font-weight: 400;
 }
 .sec-6subdiv2 ol li {
-  padding: 18px;
+  padding: 10px;
 }
-.sec-6maindiv {
-  padding: 20px;
-}
+
 .section6 h2 {
   color: #ff8c08;
-  font-size: 1.9em;
-  font-weight: 600;
 }
 .sec6-list {
   /*position: relative;*/
@@ -207,46 +174,33 @@ section h1 {
 }
 
 /* footer styles */
-.footer {
-  width: 100%;
-  padding-top: 150px;
-  margin-top: 50px;
-}
+
 .footer-sec1 {
   width: 100%;
-  height: 300px;
+  height: 350px;
   background-color: black;
   color: rgb(194, 190, 190);
-  justify-content: space-around;
-  font-size: 1.4em;
-  font-weight: 300;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5em;
 }
 .footer h3 {
-  color: white;
   font-size: 1.5em;
 }
 .footer-sec2 {
   width: 100%;
-  height: 100px;
+  height: 120px;
   color: rgb(194, 190, 190);
   background-color: rgb(87, 85, 85);
-  justify-content: space-around;
-  font-size: 1.4em;
-  font-weight: 400;
-  font-family: "Times New Roman", Times, serif;
-  align-content: center;
-}
-.footer-section1-left {
-  padding: 50px 30px;
+  font-size: 1.5em;
 }
 .footer-section1-right {
-  padding: 50px 30px;
+  font-size: 25px;
 }
-
+.footer-section1-left {
+  font-size: 25px;
+}
 /* register form code start */
 .register-main {
-  height: 1050px;
+  height: 1380px;
   width: 100%;
   padding-bottom: 50px;
 }
@@ -441,10 +395,9 @@ section h1 {
 }
 .rgstr-button {
   background-color: rgb(20, 232, 20);
-  padding: 5px;
   width: 1100px;
   height: 50px;
-  font-size: 1.5em;
+  font-size: 1.4em;
   color: white;
   border: 2px solid rgb(20, 232, 20);
   border-radius: 15px;
@@ -464,11 +417,11 @@ sup {
   padding: 100px 0px;
 }
 .login-h1 {
-  font-size: 3.5em;
+  font-size: 3em;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
   color: rgb(44, 42, 42);
-  padding-bottom: 50px;
+  padding-left: 230px;
 }
 .loginform label {
   display: block;
@@ -491,14 +444,14 @@ sup {
   padding: 5px 10px;
   width: 917px;
   height: 50px;
-  margin: 5px 0px;
+  margin: 0px 0px;
   background-color: rgb(17, 164, 17);
   border: 2px solid rgb(17, 164, 17);
 }
 .loginform button a {
   text-decoration: none;
   color: #ffffff;
-  font-size: 2.4em;
+  font-size: em;
   font-family: "Times New Roman", Times, serif;
 }
 .loginsubdiv-3 {
@@ -508,27 +461,18 @@ sup {
   align-content: center;
 }
 .leftside-div {
-  padding-right: 180px;
-  font-size: 1.8em;
-  padding-top: 5px;
-  font-weight: 500;
+  font-size: 1.6em;
 }
 .leftside-div a {
   text-decoration: none;
   color: blue;
-  font-size: 29px;
+  font-size: 25px;
 }
-.rightside-div {
-  text-align: end;
-  padding-left: 170px;
-  font-size: 1.8em;
-  padding-top: 5px;
-  color: blue;
-}
+
 .rightside-div a {
   text-decoration: none;
   color: blue;
-  font-size: 29px;
+  font-size: 25px;
 }
 
 @media (max-width: 500px) {
