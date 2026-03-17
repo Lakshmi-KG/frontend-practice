@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array Serach In Javascript</title>
+  </head>
+  <body>
+    <script>
+      //indexof()->  -1 means item does not exist ; if elment exists -->first success index
+      const courses = ["python", "Java", "HTML", "python", "PERL", "Java"];
+      const i = courses.indexOf("Java");
+      console.log(i);
+      console.log("index 1 value is : " + courses[1]);
+
+      //lastIndexOf()->for last indexing
+      const ages = [14, 35, 28, 25, 20, 12, 25, 35];
+      console.log("before lastindexof() : " + ages.toString());
+      const ages1 = ages.lastIndexOf(25);
+      const ages2 = ages.lastIndexOf(35);
+      console.log(ages1);
+      console.log(ages2);
+
+      //includes()-> return true or false
+      const things = ["phone", "book", "pen"];
+      const n1 = things.includes("book");
+      console.log(n1.toString());
+      const n2 = things.includes("laptop");
+      console.log(n2.toString());
+
+      // Find()-> function related
+      const marks = [10, 35, 50, 25, 15, 90, 40, 80, 30];
+      const result = marks.find(checkMarks);
+      console.log("findIndex() result is: " + result);
+      function checkMarks(marks, index, array) {
+        return marks >= 35;
+      }
+
+      //findindex()
+      const marks1 = [10, 35, 50, 25, 15, 90, 40, 80, 30];
+      const result1 = marks1.findIndex(checkMarks1);
+      console.log("findIndex() result is: " + result1);
+      function checkMarks1(marks1, index2, array3) {
+        return marks1 >= 35;
+      }
+
+      //findLast()
+      const marks2 = [10, 35, 50, 25, 15, 90, 40, 80, 30];
+      const result2 = marks2.findLast(checkMarks2);
+      console.log("findLast() result is: " + result2);
+      function checkMarks2(marks2, index2, array2) {
+        return marks2 >= 35;
+      }
+
+      //findLastIndex()
+      const marks3 = [10, 35, 50, 25, 15, 90, 40, 80, 30];
+      const result3 = marks3.findLastIndex(checkMarks3);
+      console.log("findLastIndex() result is: " + result3);
+      function checkMarks3(marks3, index3, array3) {
+        return marks3 >= 35;
+      }
+    </script>
+  </body>
+</html>
